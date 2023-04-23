@@ -1,0 +1,4 @@
+ifconfig eth0 3.3.3.3/24 up
+route add default gw 3.3.3.1
+
+/etc/init.d/nginx start
