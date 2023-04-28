@@ -1,0 +1,17 @@
+$TTL   60000
+@               IN      SOA     legit.com.    ns.legit.com. (
+                        2006031201 ; serial
+                        3h ; refresh
+                        30m ; retry
+                        3w ; expire
+                        1h ; negative cache ttl
+                        )
+
+@   3600       IN      NS    ns.legit.com.
+
+@   	3600       IN      A     3.3.3.3
+www 	3600       IN      A     3.3.3.3
+ns  	3600       IN      A     3.3.3.2
+web1 	3600       IN      A     3.3.3.3
+web2 	3600       IN      A     3.3.3.4
+*   	3600       IN      A     3.3.3.3

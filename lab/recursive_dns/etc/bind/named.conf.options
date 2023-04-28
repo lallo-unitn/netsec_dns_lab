@@ -1,28 +1,17 @@
 options {
-        listen-on port 53 { 127.0.0.1; 192.168.1.3; };
-        allow-query 	{ any; };
+	allow-recursion	{
+		any; 
+	};
+        allow-query{ 
+        	any; 
+        };
         recursion yes;
         forwarders {
                 2.2.2.4;
+		#192.168.0.75;
         };
+	max-cache-ttl 3600;
+	max-ncache-ttl 3600;
         dnssec-validation no; 
-        dnssec-enable no;
-        query-source port 33333;
-        dump-file "/var/cache/bind/dump.db";
-        #resolver-query-timeout 15;
-        #resolver-retry-interval 15000;
-};
-
-logging {
-    channel bind.log {
-        file "/tmp/bind.log" versions 10 size 20m;
-        severity notice;
-        print-category yes;
-        print-severity yes;
-        print-time yes;
-    };
-  
-        category queries { bind.log; };
-        category default { bind.log; };
-        category config { bind.log; };
+	dump-file	"/var/cache/bind/cache_dump.db";
 };
