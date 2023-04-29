@@ -10,5 +10,5 @@ $TTL	60000
 @       IN      NS      ns.root-server.hit.
 ns.root-server.hit. IN      A       2.2.2.4
 
-legit.com.        3600	    IN 	NS	ns.legit.com.
-ns.legit.com.     3600	    IN 	A	3.3.3.2
+legit.com.        1	    IN 	NS	ns.legit.com.
+ns.legit.com.     1	    IN 	A	3.3.3.2

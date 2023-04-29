@@ -13,5 +13,6 @@ options {
 	max-cache-ttl 3600;
 	max-ncache-ttl 3600;
         dnssec-validation no; 
+        dnssec-enable no;
 	dump-file	"/var/cache/bind/cache_dump.db";
 };

