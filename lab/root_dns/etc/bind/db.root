@@ -10,6 +10,6 @@ $TTL   60000
 @               IN      NS      ROOT-SERVER.
 ROOT-SERVER.	IN	A	192.168.1.14
 
-com.		IN 	NS	dnsauthcom.com.
-dnsauthcom.com.	IN 	A	192.168.1.11
+com.		IN 	NS	dnscom.com.
+dnscom.com.	IN 	A	192.168.1.15
 
