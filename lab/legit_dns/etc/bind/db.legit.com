@@ -10,4 +10,4 @@ $TTL   60000
 @        	IN      NS      ns1.legit.com.
 ns1.legit.com.	IN	A 	192.168.1.11
 
-web1	IN 	A	192.168.1.12
+web1 	IN 	A	192.168.1.12

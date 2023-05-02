@@ -1,13 +1,13 @@
 $TTL   60000
-@               IN      SOA     dnsauthcom.com.    root.dnsauthcom.com. (
+@               IN      SOA     dnscom.com.    ns1.dnscom.com. (
                         2006031201 ; serial
                         28800 ; refresh
                         14400 ; retry
                         3600000 ; expire
                         0 ; negative cache ttl
                         )
-@                   	IN      NS      dnsauthcom.com.
-dnsauthcom.com.        	IN      A       192.168.1.15
+@                   	IN      NS      dnscom.com.
+dnscom.com.        	IN      A       192.168.1.15
 
-website.com.           	IN      NS      dnswebsite.website.com.
-dnswebsite.website.com.	IN      A       192.168.1.11
+legit.com.           	IN      NS      ns1.legit.com.
+ns1.legit.com.		IN      A       192.168.1.11

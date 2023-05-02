@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28a77092-a4a6-4d1f-bf53-20821ad874f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../images/attacker_machine/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com_dns/etc/bind/db.com" beforeDir="false" afterPath="$PROJECT_DIR$/../com_dns/etc/bind/db.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab().conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../lab.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-poisoning.cpp.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-poisoning" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-poisoning.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-poisoning0.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poisoning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legit_dns/etc/bind/db.website.com" beforeDir="false" afterPath="$PROJECT_DIR$/../legit_dns/etc/bind/db.website.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recursive_dns/etc/bind/named.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../recursive_dns/etc/bind/named.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attack_cache_poisoning.py.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attack_cache_poisoning.py" beforeDir="false" afterPath="$PROJECT_DIR$/attack_cache_poisoning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attack_kaminsky.py" beforeDir="false" afterPath="$PROJECT_DIR$/attack_kaminsky.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_cache_poisoning.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_cache_poisoning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slave1.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave1.startup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slave2.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave2.startup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slave3.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave3.startup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/user/netsec_dns_lab/lab/shared",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/netsec_dns_lab/lab/shared&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +54,9 @@
       <option name="presentableId" value="Default" />
       <updated>1682864790384</updated>
       <workItem from="1682864792435" duration="1924000" />
+      <workItem from="1683045512620" duration="100000" />
+      <workItem from="1683045650824" duration="257000" />
+      <workItem from="1683046207134" duration="1075000" />
     </task>
     <servers />
   </component>
