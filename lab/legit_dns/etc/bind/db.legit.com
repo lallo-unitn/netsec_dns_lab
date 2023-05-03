@@ -1,5 +1,5 @@
 $TTL   60000
-@               IN      SOA     ns1.legit.com.    root.ns1.legit.com. (
+@               IN      SOA     ms1.legit.com.    root.ns1.legit.com. (
                         2006031201 ; serial
                         28800 ; refresh
                         14400 ; retry
@@ -10,5 +10,5 @@ $TTL   60000
 @        	IN      NS      ns1.legit.com.
 ns1.legit.com.	IN	A 	192.168.1.11
 
-web1 	IN 	A	192.168.1.12
-web2	IN	A	192.168.1.13
+web1		IN 	A	192.168.1.12
+web2		IN	A	192.168.1.13
