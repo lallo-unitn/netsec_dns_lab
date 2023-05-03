@@ -11,3 +11,4 @@ $TTL   60000
 ns1.legit.com.	IN	A 	192.168.1.6
 
 web1 	IN 	A	192.168.1.7
+web2	IN 	A	192.168.1.16
